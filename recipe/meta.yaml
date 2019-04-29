@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: pyscenarios
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pyscenarios/pyscenarios-{{ version }}.tar.gz
-  sha256: 362d13c8e5d51bd9badf104bf5c3616e0d5b64f5e3bb9934aa23dd168c6b590d
+  sha256: c0ccb9d00c8e30178683bec874afa898c6e3728f9708db0763a376c925daa3a2
 
 build:
   noarch: python
@@ -16,11 +16,6 @@ build:
 requirements:
   build:
     - python>=3.5
-    - dask>=0.17.3
-    - numba>=0.34
-    - numpy>=1.13
-    - pandas>=0.20
-    - scipy>=1.0
     - pip
   run:
     - python>=3.5
@@ -34,12 +29,12 @@ test:
   imports:
     - pyscenarios
   requires:
-    - pytest>=3.1
+    - pytest>=3.6
 
 about:
   home: https://github.com/crusaderky/pyscenarios
-  license: LGPL-3.0
-  license_family: LGPL
+  license: APACHE-2.0
+  license_family: APACHE
   license_file: LICENSE
   summary: 'Python Monte Carlo Scenario Generator'
 
