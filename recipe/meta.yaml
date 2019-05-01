@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: pyscenarios
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pyscenarios/pyscenarios-{{ version }}.tar.gz
-  sha256: c0ccb9d00c8e30178683bec874afa898c6e3728f9708db0763a376c925daa3a2
+  sha256: ee38d2396959cf57be319584acd6eb1a0d0bd88374ac9f9375a292ae61e5172a
 
 build:
   noarch: python
