@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pyscenarios/pyscenarios-{{ version }}.tar.gz
-  sha256: ee38d2396959cf57be319584acd6eb1a0d0bd88374ac9f9375a292ae61e5172a
+  sha256: 9cd49088c93296445ff55a83d5a835845fbb3c4e58d1f7379e35e8138188e63b
 
 build:
   noarch: python
