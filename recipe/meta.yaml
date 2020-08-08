@@ -11,7 +11,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -39,7 +39,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'Python Monte Carlo Scenario Generator'
+  summary: Python Monte Carlo Scenario Generator
 
 extra:
   recipe-maintainers:
