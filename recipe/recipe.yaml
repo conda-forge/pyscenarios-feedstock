@@ -36,7 +36,9 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/crusaderky/pyscenarios
+  homepage: https://github.com/crusaderky/pyscenarios
+  repository: https://github.com/crusaderky/pyscenarios
+  documentation: https://pyscenarios.readthedocs.io
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
